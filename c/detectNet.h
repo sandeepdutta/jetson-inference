@@ -124,7 +124,8 @@ public:
 		// Detection Info
 		uint32_t ClassID;	/**< Class index of the detected object. */
 		float Confidence;	/**< Confidence value of the detected object. */
-
+		float MeanDistance; /**< Mean Distance from the camera (mm) */
+		
 		// Tracking Info
 		int TrackID;		/**< Unique tracking ID (or -1 if untracked) */
 		int TrackStatus;	/**< -1 for dropped, 0 for initializing, 1 for active/valid */ 
